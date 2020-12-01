@@ -1,7 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html{
-  background-color: #bfd69ae5
+  background-color: rgba(208, 241, 57, 0.445)
 }
 img{
   max-width: 300px ;
   border: 4px solid black;
+  padding: 5px;
+  margin: 15px;
+}
+a:link{
+  color: rgb(17, 122, 48);
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 3px;
+  background-color: rgba(242, 243, 236, 0.623)
+  }
+a:visited{
+  color: rgb(124, 9, 9);
+  border: 2px solid black;
+}
+a:hover{
+  color: rgb(84, 47, 219);
+  text-decoration: underline;
+}
+a.current{
+  color: rgb(56, 53, 12)
+}
+a:active{
+  color: rgba(243, 138, 229, 0.979);
+}
+li{
+  margin-bottom: 15px;
+}
+.odd {
+float: left;
+margin: right 20px;
+}
+.even {
+float: right;
+margin: left 20px;
+}
+h1{
+ font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+h2{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+p {
+  text-align: justify;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 16px;
 }
